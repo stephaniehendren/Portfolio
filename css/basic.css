@@ -1,0 +1,393 @@
+/*** Contact Form CSS ***/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*:focus {
+	outline:none;
+}
+p {
+	font-size: 1.3em;
+	margin-bottom: 15px;
+}
+.contactForm {
+	background:#8BB9BE;
+	padding: 0 0 150px 0;
+}
+#page-wrap {
+	width: 500px;
+	background: #77A2A7;
+	padding: 20px 40px 20px 40px;
+	margin: 0 auto;
+	height: auto !important;
+	border-radius: 15px;
+}
+
+#contact-area {
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px 10px;
+	width: 480px;
+	font-size: 1em;
+	margin: 0px 0px 10px 0px;
+	line-height: 2em;
+	border: none;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	background: lightgrey;
+}
+
+#contact-area input.submit-button {
+	display: block;
+	outline: 3px solid white;
+	line-height: 2em;
+	width: 494px;
+	font-size: 1em;
+	margin:0 auto 22px auto;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	color: white;
+	background: none;
+}
+#contact-area input.submit-button:hover {
+	color:#77A2A7;
+	background:white;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Didact Gothic', sans-serif;
+	background:#e1cb5e;
+}
+h3 {
+	font-size: 1.2em;
+	margin: 0;
+}
+h4 {
+	font-size: 1em;
+	margin: 0;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+/********** Buttons **********/
+
+.button {
+	outline: 3px solid white;
+	line-height: 2.5em;
+	width: 390px;
+	font-size: .5em;
+	margin: 1em auto 0 auto;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.button:hover {
+	color:#93C8B0;
+	background:white;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+.button2 {
+	display:none;
+	outline: 3px solid #FFED91;
+	line-height: 2.5em;
+	width: 264px;
+	font-size: 1.4em;
+	margin: 1em auto 2em auto;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	text-align: center;
+	color: #FFED91;
+}
+.button2:hover {
+	color: #e1cb5e;
+	background: #FFED91;
+}
+.button2:active {
+	position:relative;
+	top:1px;
+}
+
+/********** Ribbon **********/
+
+.ribbon {
+	position: relative;
+	color: #DBC03A;
+	text-align: center;
+	margin: 50px auto 20px;
+	width: 65%;
+	background: #FFED91;
+	line-height:40px;
+}
+.ribbon:before, .ribbon:after {
+	content: "";
+	position: absolute;
+	display: block;
+	bottom: 0;
+	z-index: -1;
+	border: 20px solid;
+}
+.ribbon:before {
+	left: -2em;
+	border-right-width: 1.5em;
+	border-color: #FFED91;
+	border-left-color: transparent;
+}
+.ribbon:after {
+	right: -2em;
+	border-left-width: 1.5em;
+	border-color: #FFED91;	
+	border-right-color: transparent;
+}
+.ribbon .ribbon-content:before {
+	left: 0;
+	border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+	right: 0;
+	border-width: 1em 1em 0 0;
+}
+
+/********** Lightbox **********/
+
+#lightbox{
+	background-color:#eee;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	}
+#lightboxDetails{
+	font-size: 0.8em;
+	padding-top: 0.4em;
+	}	
+#lightboxCaption{ float: left; }
+#keyboardMsg{ float: right; }
+
+#lightbox img{ border: none; } 
+#overlay img{ border: none; }
+
+#overlay{ background-image: url('img/overlay.png'); }
+
+* html #overlay{
+	background-color: #000;
+	back\ground-color: transparent;
+	background-image: url('img/overlay.png');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/overlay.png", sizingMethod="scale");
+	}
+	
+	
+/********** Welcome **********/
+
+.welcome {
+	background: #93C8B0;
+	text-align: center;
+}
+.welcome ol {
+	list-style: none;
+	padding: 150px 0 155px 0;
+	margin: auto;
+}
+.welcome>ol {
+	font-size: 3em;
+	line-height: 1.1em;
+	color: white;
+}
+.welcome ol li:nth-child(2) {
+	font-size: 1.27em;
+	text-transform: uppercase;
+}
+.welcome ol li:nth-child(3) {
+	font-size: .844EM;
+}
+
+/********** Projects **********/
+
+
+.projects h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1em;
+	margin:0;
+}
+.projects ol {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	width: 70%;
+	margin: 0 auto 40px auto;
+}
+.projects>ol>li {
+	display: inline-block;
+	width: 250px;
+	margin: 10px;
+	height: 250px;
+	border: 10px #FFED91 solid;
+	overflow: hidden;
+}
+.projects>ol>li img {
+	max-width:100%;
+}
+.showme { 
+	display: none;
+	padding-top: 6.3em;
+	color:#e1cb5e;
+	height:inherit;
+}
+.showhim {
+	height:inherit;
+	background-size: 100%;
+	-webkit-transition: all 1.3s;
+	-moz-transition: all 1.3s;
+	transition: all 1.3s;
+}
+.showhim a {
+	height: inherit;
+	text-decoration: none;
+}
+.showhim:hover .showme{
+	display : block;
+	background:#FFED91;
+}
+
+/* Project Pictures */
+.Project1 .showhim {
+	background-image: url('img/tnSidewalkerSite.jpg');
+}
+.Project2 .showhim {
+	background-image: url('img/tnSidewalkerIntroFlyer.jpg');
+}
+.Project3 .showhim {
+	background-image: url('img/tnMcW.jpg');
+}
+.Project4 .showhim {
+	background-image: url('img/tnRHB.jpg');
+}
+.Project5 .showhim {
+	background-image: url('img/tnRockProfile.jpg');
+}
+.Project6 .showhim {
+	background-image: url('img/tnLollipop.jpg');
+}
+.Project7 .showhim {
+	background-image: url('img/tnLollisAndRoses.jpg');
+}
+.Project8 .showhim {
+	background-image: url('img/tnVintageDresses.jpg');
+}
+.Project9 .showhim {
+	background-image: url('img/tnLollipop.jpg');
+}
+
+/********** Profile **********/
+
+.profile {
+	background:#f77181;
+	padding: 50px 0;
+}
+.profile>div {
+	text-align:center;
+}
+.profile ol {
+	list-style:none;
+	padding:30px 0;
+	width: 500px;
+	margin: 0 auto;
+	color:#f5aab3;
+	font-size: 1.1em;
+	line-height: 1.2em;
+}
+.profile ol li {
+	display: inline-block;
+	width: 49%;
+	vertical-align: middle;
+}
+.profile ol li:last-child {
+	width:100%;
+}
+.profile .pic img {
+	width:200px;
+	border-radius:100%;
+	border: 10px solid #f5aab3;
+}
+.scallopTop {
+	background-image: url('img/scallopTop.jpg');
+	height: 14px;
+}
+.scallopBottom {
+	background-image: url('img/scallopBottom.jpg');
+	height: 14px;
+}
+
+
+/********** Contact **********/
+
+.contact {
+	background: #8BB9BE;
+}
+.contact ol {
+	list-style: none;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1.1em;
+	margin: 0;
+	padding: 30px 0;
+	color: white;
+}
+.contact ol li:first-child {
+	font-family: 'Leckerli One', cursive;
+	font-size: 2em;
+	line-height: 1em;
+}
+.contact ol li:last-child a {
+	font-size: .7em;
+	color: white;
+	text-decoration: none;
+}
+.contact ol li:last-child a:hover {
+	border-bottom: 5px white solid;
+}

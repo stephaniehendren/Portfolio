@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/basic.css" />
+	<script type="text/javascript" src="js/portfolio.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Leckerli+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="welcome">
+		<ol>
+			<li>Stephanie Hendren</li>
+			<li>Design & Code</li>
+			<li>Peterborough, Ontario</li>
+			<a href="#scrollto"><li class="button" value="Show Div" onclick="showDiv()" />Contact Me</li></a>
+		</ol>
+	</div>
+	<div class="projects">
+	<div class="ribbon"><h2>Recent Projects</h2></div>
+		<ol>
+			<li class="Project1">
+				<div class="showhim"><a href="http://www.sidewalker.ca" target="_blank"><div class="showme">
+				<h3>Sidewalker Website</h3>
+				<h4>Design / CSS</h4></div></a></div>
+			</li>	
+			<li class="Project2">
+				<div class="showhim"><a href="img/SidewalkerIntroFlyer.jpg" rel="lightbox"><div class="showme">
+				<h3>Sidewalker Promo Flyer</h3>
+				<h4>Design</h4></div></a></div>
+			</li>	
+			<li class="Project3">
+				<div class="showhim"><a href="img/McW.jpg" rel="lightbox"><div class="showme">
+				<h3>McWilliams Advertisement</h3>
+				<h4>Design</h4></div></a></div>
+			</li>
+			<li  class="Project4">
+				<div class="showhim"><a href="img/RHB.jpg" rel="lightbox"><div class="showme">
+				<h3>Rock Hudson Blog</h3>
+				<h4>Design / CSS</h4></div></a></div>
+			</li>
+			<li class="Project5">
+				<div class="showhim"><a href="img/RockVector.jpg" rel="lightbox"><div class="showme">
+				<h3>Rock Hudson Vector</h3>
+				<h4>Design</h4></div></a></div>
+			</li>
+			<li class="Project6">
+				<div class="showhim"><a href="img/lollipop.jpg" rel="lightbox"><div class="showme">
+				<h3>Lollipop Graphic</h3>
+				<h4>Design</h4></div></a></div>
+			</li>
+			<li class="Project7">
+				<div class="showhim"><a href="img/LollisAndRoses.jpg" rel="lightbox"><div class="showme">
+				<h3>Lollipops & Roses Header</h3>
+				<h4>Design</h4></div></a></div>
+			</li>
+			<li class="Project8">
+				<div class="showhim"><a href="img/DressGuide.jpg" rel="lightbox"><div class="showme">
+				<h3>Vintage Dress Guide</h3>
+				<h4>Research / Design</h4></div></a></div>
+			</li>
+			<li class="Project9">
+				<div class="showhim"><a href="#img9" rel="lightbox"><div class="showme">
+				<h3>Cat Vector Graphic</h3>
+				<h4>Design</h4></div></a></div>
+			</li>
+		</ol>			
+	</div>
+	<div class="scallopTop"></div>
+	<div class="profile">
+	<div><img src="img/profile.png"></div>
+		<ol>
+			<li class="pic"><img src="img/profilePic.jpg"></li>
+			<li>Hi, I'm Steph! I've been creating websites for more years than I'd like to admit. In high school I was the weird computer nerd who spent all her spare time making fan sites for celebrity crushes. It may not have got me any popularity points, but I did learn a lot about coding and design.
+			</li>
+			<li>
+			<br />
+			These days I am a full time graphic and web designer for a great app developing company. I also do some freelance work on the side.
+			<br />		
+			<br />
+			I'm fluent in HTML, CSS and SEO, awesome with Adobe Photoshop and Illustrator, and have basic Javascript and PHP skills. Please contact me if you would like to discuss working together.</li>
+		</ol>
+	</div>
+<div class="scallopBottom" id="scrollto"></div>
+<div class="contact">
+		<ol>
+			<li value="Show Div" onclick="showDiv()" /><a href="#Name">Contact me</a></li>
+			<li value="Show Div" onclick="showDiv()" /><a href="#Name">stephaniehendren@gmail.com</a></li>
+			<li>+1 (705) 761-3311</li>			
+			<li><a href="http://www.linkedin.com/profile/view?id=316993497">LinkedIn</a></li>	
+		</ol>
+</div>
+
+<div class="contactForm" id="contactForm" style="display:none;" >
+
+	<div id="page-wrap">
+				
+		<div id="contact-area">
+			
+			<form method="post" action="contactengine.php">
+				<input type="text" name="Name" id="Name" placeholder="Name" tabindex="1" />				
+				<br />
+				<input type="text" name="Email" id="Email" placeholder="Email" tabindex="2" />
+				<br />
+				<textarea name="Message" rows="20" cols="20" id="Message" placeholder="Message" tabindex="3"></textarea>
+				<input type="submit" name="submit" value="Submit" class="submit-button" tabindex="4" />
+			</form>
+			
+		<div style="clear: both;"></div>
+				
+	</div>
+</div>
+</body>
+<footer>
+</footer>
+</html>
